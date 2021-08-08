@@ -1,0 +1,11 @@
+
+d = 1
+s = float(input('Начало - '))
+f = float(input('Цель - '))
+if s <= 0 or f < 0:
+    print('Км больше 0')
+else:
+    while s < f:
+        s *= 1.1
+        d += 1
+    print(f'Цль достигнута на {d} дней')
